@@ -1,22 +1,22 @@
 # Building Custom FFMPEG
 ## Why are we building custom FFMPEG?
-***
+
 Pre-built ffmpeg takes approximately 50MB of filesize. We can compile FFMPEG from source code to reduce filesize to minimum and limit features of FFMPEG to just about what we need.
-***
+
 ## System Details
-***
+
 The operation mentioned in this file is executed on Ubuntu 22.04 x64. Total CPU cores is 4.
-***
+
 ## Use Cases
-***
+
 Our custom FFMPEG build use case are as follows:
 1. To convert .TS files to MP4.
 2. To convert .MP4(video only)+.M4A(audio only) to MP4.
 3. To convert .MP4 to .MP3.
 
-***
+
 ## Steps to compile custom FFMPEG
-***
+
 The steps to compile FFMPEG for our custom needs are as follows.
 Most of the things here are referred from this [Compilation Guide](https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu).
 ### Get the Dependencies
